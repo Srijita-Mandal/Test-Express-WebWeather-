@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerLinks}}
+</head>
+<body>
+
+    <!-- main header -->
+    <div class="container-fluid main-header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-12 col-12 error align-items-center">
+                        <figure class="errImg">
+                            <img src="images/404Error.png" alt="404Error" class="img-fluid">
+                        </figure>
+                        <p>Welcome to <span>Weather Hunt</span> </p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>GO BACK</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
